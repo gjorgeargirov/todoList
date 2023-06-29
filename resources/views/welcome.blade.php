@@ -60,9 +60,7 @@
     @if(true)
         @foreach($listItems as $listItem)
             @if($listItem->is_complete == 1)
-
                 <ul class="list-group list-group-flush ">
-
                     <li class="list-group-item bg-secondary rounded-2">
                         <div class="row me-1">
                             <div class="col-1">
